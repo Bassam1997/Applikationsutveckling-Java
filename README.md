@@ -1,5 +1,5 @@
 # Applikationsutveckling-Java
-Code that will be used to make a interface, time/distance/speed measurements that will be used on motiofys machine
+
 
 Hur man hämtar GIT projektet, t.ex.
 
