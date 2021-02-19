@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Activity"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/måltid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#1 Måltid"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/antalMåltid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@+id/måltid1"
+        android:ems="2"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/måltid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#2 Måltid"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/antalMåltid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="130dp"
+        android:layout_toEndOf="@+id/måltid1"
+        android:ems="2"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/måltid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#3 Måltid"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        />
+    <EditText
+        android:id="@+id/antalMåltid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="180dp"
+        android:layout_toEndOf="@+id/måltid1"
+        android:ems="2"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/översikt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Översikt"
+
+        />
+
+
+</RelativeLayout>
