@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Antons Skafferi</title>
+        <img id="logo" src="anton2.png" alt="Bethan Rainforth a comedic dancer" />
+        <div class="navbar">
+<ul class="horizontal">               
+   <li><a href="index.xhtml">Hem</a></li>
+   <li><a href="#">Event</a>
+        <ul>
+            <li><a href="#">Tidigare event</a></li>
+            <li><a href="#">Kommande event</a></li>
+        </ul>
+   </li>
+   <li><a href="#">Meny</a>
+        <ul>
+            <li><a href="#">Veckans luncher</a></li>
+            <li><a href="#">A la carté</a></li>
+        </ul>
+   </li>
+   <li><a href="kontaktaOss.xhtml">Kontakta oss</a>
+        <ul>
+            <li><a href="aboutUs.xhtml">Om oss</a></li>
+            <li><a href="kontaktaOss.xhtml">Kontakta oss</a></li>
+        </ul>
+   </li>
+   
+</ul>
+</div>
+        <h1 id="aboutUsTitle">Om Oss</h1>
+         <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const anton = { lat: 62.394204800000004, lng: 17.28440775767323 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 12,
+          center: anton,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: anton,
+          map: map,
+        });
+      }
+    </script>
+        
+    </h:head>
+    <h:body>
+        
+        <p id="aboutUsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br/> 
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        
+        <div id="chef">
+            <img src="anton2.png" />
+            <p>Kocken</p>
+        </div>
+        
+        <div id="personal">
+            <div id="personalbild" style="text-align: center;">
+                <img src="anton2.png"/>
+                <p>personal 1</p>
+            </div>
+
+            <div id="personalbild" style="text-align: center; padding-left: 458px">
+                <img src="anton2.png"/>
+                <p>personal 2</p>
+            </div>
+
+            <div id="personalbild" style="text-align: center; padding-left: 450px;">
+                <img src="anton2.png"/>
+                <p>personal 3</p>
+            </div>
+        </div>
+        
+        <div id="hours">
+            <h2>Öppettider</h2>
+            <h4>Lunch</h4>
+            <p>Måndag - Fredag: 11 - 14 <br />
+               Lördag - Söndag: Stängt            
+            </p>
+            <h4>A la carté</h4>
+            <p>Måndag - fredag: 14 - 20 <br />
+               Lördag - Söndag: 11 - 20
+            </p>
+        </div>
+        
+        <div id="map"></div>
+        
+        <script async="async" defer="defer"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHrZb4kLpT3VIYxj1z-mpE2NqGHbm0SA&amp;callback=initMap&amp;libraries=&amp;v=weekly" >        
+        </script>
+        
+    </h:body>
+    
+    <style>
+    .horizontal {
+    list-style-type:none; 
+    margin:40 auto; 
+    width:640px; 
+    padding:0;  
+    left: 220px;
+    top: 60px;
+    position: absolute;
+    overflow:hidden;
+}
+.horizontal > li {
+    float:left;
+    
+}
+.horizontal li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.horizontal li:hover ul {
+    display: block;
+}
+.horizontal li a {
+    display: block; 
+    text-decoration:none; 
+    text-align:right; 
+    padding:22px 10px;
+    font-family:Arial; 
+    font-size:8pt; 
+    font-weight:bold; 
+    color:#000000; 
+   
+    text-transform:uppercase; 
+    border-right:1px solid #607987; 
+    background-color:#FFFFFF;  
+    letter-spacing:.08em
+}
+
+.horizontal li a:hover {
+    background-color:#FF0000; 
+    color:#000000
+}
+
+.horizontal li:first-child a { border-left:0; }
+.horizontal li:last-child a { border-right:0; }
+
+#aboutUsTitle{
+    text-align: center;
+}
+#aboutUsText{
+    text-align: center;
+}
+#chef{
+    text-align: center;
+}
+#personal{
+    display: table;
+}
+#personalbild{
+    display: table-cell;
+}
+#hours{
+    padding-top: 50px;
+    float: left;
+    text-align: center;
+    padding-left: 275px;
+}
+#map {
+  float: right;
+  padding-right: 180px;
+  padding-top: 50px;
+  height: 300px;
+  /* The height is 400 pixels */
+  width: 500px;
+  /* The width is the width of the web page */
+}
+
+</style>
+</html>
+
+
