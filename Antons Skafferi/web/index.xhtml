@@ -11,17 +11,17 @@
         
         <div class="navbar">
 <ul class="horizontal">               
-   <li><a href="#">Hem</a></li>
+   <li><a href="index.xhtml">Hem </a></li>
    <li><a href="#">Event</a>
         <ul>
             <li><a href="#">Tidigare event</a></li>
             <li><a href="#">Kommande event</a></li>
         </ul>
    </li>
-   <li><a href="#">Meny</a>
+   <li><a href="meny.xhtml">Meny</a>
         <ul>
-            <li><a href="#">Veckans luncher</a></li>
-            <li><a href="#">A la carté</a></li>
+            <li><a href="alacarte.xhtml">A la carté</a></li>
+            <li><a href="dlunch.xhtml"> Veckans luncher </a></li>
         </ul>
    </li>
    <li><a href="#">Kontakta oss</a>
@@ -33,8 +33,58 @@
    
 </ul>
 </div>
+        
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="entre.jpg" style="width:80%"/>
+          <div class="text">Entrécote med botato</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="oxfil.jpg" style="width:80%"/>
+          <div class="text">Oxfilé med lite bris</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="kyckling.jpg" style="width:80%"/>
+          <div class="text">Digaag med bootato</div>
+        </div>
+        
+        </div>
+        
+        <h2>Dagens Lunch!</h2>
+        <p> Lunchtid mellan 11-14.00 </p>
+        
+        <h3>Helstekt Entrecote med vitlökssmör och rostad potatis</h3>
+        <h4> inkl. Bröd, dryck och kaffe.</h4>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br>
+       
+        <h3> Oxfilepasta med grönpeppar, whiskey, svamp och zucchini</h3>
+        <h4> inkl. Bröd, dryck och kaffe.</h4>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br>
+        
+        <h3>Marinerad, grillad kycklingfilé i en mild sås med grädde. Serveras med basmatiris</h3>
+        <h4> inkl. Bröd, dryck och kaffe.</h4>
+        
     </h:body>
     <style>
+        
+    h2 {
+            text-align: center;
+        }
+        
+    h3 {
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
     .horizontal {
     list-style-type:none; 
     margin:40 auto; 
@@ -79,6 +129,15 @@
 .horizontal li a:hover {
     background-color:#FF0000; 
     color:#000000
+}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  float: right;
+  top: -20px;
+  left: 70px;
 }
 
 .horizontal li:first-child a { border-left:0; }
