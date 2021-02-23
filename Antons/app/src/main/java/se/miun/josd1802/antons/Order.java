@@ -9,23 +9,31 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class Order extends AppCompatActivity {
+
     private Button b_oversikt;
     private EditText e_måltid1;
+    private EditText e_måltid2;
+    private EditText e_måltid3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
         e_måltid1 = (EditText) findViewById(R.id.antalMåltid1);
+        e_måltid2 = (EditText) findViewById(R.id.antalMåltid2);
+        e_måltid3 = (EditText) findViewById(R.id.antalMåltid3);
+
         b_oversikt = (Button) findViewById(R.id.översikt);
         b_oversikt.setOnClickListener(view -> navigateToOrder());
         }
         public void navigateToOrder()
         {
-            Bundle bundle = new Bundle();
-            bundle.putString("key", e_måltid1.getText().toString());
             Intent intent = new Intent(this, OverviewActivity.class);
 
-            intent.putExtra("Key", e_måltid1.getText().toString());
+            intent.putExtra("#1", "Måltid1 : " + "Antal: " + e_måltid1.getText().toString());
+            intent.putExtra("#2", "Måltid2 : " + "Antal: " + e_måltid2.getText().toString());
+            intent.putExtra("#3", "Måltid3 : " + "Antal: " + e_måltid3.getText().toString());
+
             startActivity(intent);
         }
     }
