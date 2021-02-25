@@ -5,12 +5,12 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
         <title>Antons Skafferi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
+    </h:head>
+    <h:body>
           <img id="logo" src="anton2.png" alt="Bethan Rainforth a comedic dancer" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,23 +25,23 @@ h1, h2, h3, h4, h5, h6 {
         
 <div class="navbar">
 <ul class="horizontal">               
-   <li><a href="index.xhtml">Hem </a></li>
-   <li><a href="event1.xhtml">Event</a>
+   <li><a href="/test/faces/index.xhtml">Hem</a></li>
+   <li><a href="/test/faces/event1.xhtml">Event</a>
         <ul>
-            <li><a href="event1.xhtml">Tidigare event</a></li>
-            <li><a href="nyaevent.xhtml">Kommande event</a></li>
+            <li><a href="/test/faces/event1.xhtml">Tidigare event</a></li>
+            <li><a href="/test/faces/nyaevent.xhtml">Kommande event</a></li>
         </ul>
    </li>
-   <li><a href="meny.xhtml">Meny</a>
+   <li><a href="/test/faces/meny.xhtml">Meny</a>
         <ul>
-            <li><a href="alacarte.xhtml">A la carté</a></li>
-            <li><a href="dlunch.xhtml"> Veckans luncher </a></li>
+            <li><a href="/test/faces/alacarte.xhtml">A la carté</a></li>
+            <li><a href="/test/faces/dlunch.xhtml"> Veckans luncher </a></li>
         </ul>
    </li>
-   <li><a href="kontaktaOss.xhtml">Kontakta oss</a>
+   <li><a href="/test/faces/kontaktaOss.xhtml">Kontakta oss</a>
         <ul>
-            <li><a href="aboutUs.xhtml">Om oss</a></li>
-            <li><a href="kontaktaOss.xhtml">Kontakta oss</a></li>
+            <li><a href="/test/faces/aboutUs.xhtml">Om oss</a></li>
+            <li><a href="/test/faces/kontaktaOss.xhtml">Kontakta oss</a></li>
         </ul>
    </li>
    
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   
 <!-- Footer --><footer class="w3-center w3-light-grey w3-padding-32">
   
-<p>by<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Antons skafferi</a></p></footer>
+<p>by<link href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Antons skafferi</link></p></footer>
         
         
     <style>
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 .horizontal li:hover ul {
     display: block;
 }
-.horizontal li a {
+.horizontal li a{
     display: block; 
     text-decoration:none; 
     text-align:right; 
@@ -159,6 +159,8 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing:.08em
 }
 
+
+
 .horizontal li a:hover {
     background-color:#FF0000; 
     color:#000000
@@ -168,4 +170,4 @@ h1, h2, h3, h4, h5, h6 {
 .horizontal li:last-child a { border-right:0; }
 
     </style>
-</div></body></html>
+</div></h:body></html>

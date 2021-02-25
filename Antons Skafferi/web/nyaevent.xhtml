@@ -15,32 +15,33 @@ and open the template in the editor.
         <img id="logo" src="anton2.png" alt="Bethan Rainforth a comedic dancer" />
 
         
-        <div class="navbar">
+  <div class="navbar">
 <ul class="horizontal">               
-   <li><a href="index.xhtml">Hem </a></li>
-   <li><a href="event1.xhtml">Event</a>
+   <li><a href="/test/faces/index.xhtml">Hem</a></li>
+   <li><a href="/test/faces/event1.xhtml">Event</a>
         <ul>
-            <li><a href="event1.xhtml">Tidigare event</a></li>
-            <li><a href="nyaevent.xhtml">Kommande event</a></li>
+            <li><a href="/test/faces/event1.xhtml">Tidigare event</a></li>
+            <li><a href="/test/faces/nyaevent.xhtml">Kommande event</a></li>
         </ul>
    </li>
-   <li><a href="meny.xhtml">Meny</a>
+   <li><a href="/test/faces/meny.xhtml">Meny</a>
         <ul>
-            <li><a href="alacarte.xhtml">A la carté</a></li>
-            <li><a href="dlunch.xhtml"> Veckans luncher </a></li>
+            <li><a href="/test/faces/alacarte.xhtml">A la carté</a></li>
+            <li><a href="/test/faces/dlunch.xhtml"> Veckans luncher </a></li>
         </ul>
    </li>
-   <li><a href="kontaktaOss.xhtml">Kontakta oss</a>
+   <li><a href="/test/faces/kontaktaOss.xhtml">Kontakta oss</a>
         <ul>
-            <li><a href="aboutUs.xhtml">Om oss</a></li>
-            <li><a href="kontaktaOss.xhtml">Kontakta oss</a></li>
+            <li><a href="/test/faces/aboutUs.xhtml">Om oss</a></li>
+            <li><a href="/test/faces/kontaktaOss.xhtml">Kontakta oss</a></li>
         </ul>
    </li>
    
 </ul>
 </div>
         
-        <h1> Kommande event! </h1>
+        <br> </br>
+       <div class="emboss-txt">Kommande Event.</div>
         
         <div class="w3-content" style="max-width: 1100px;">
   <!-- About Section -->
@@ -94,9 +95,54 @@ and open the template in the editor.
         
     </body>
     <style>
-        h1 {
-            text-align: center;
-        }
+        .emboss-txt {
+  position: relative;
+  font-size: 100px;
+  font-family: dock11;
+  text-align: center;
+  letter-spacing: 5px;
+  color:rgb(207,207,207);
+  text-shadow: 
+  /*3d layers*/
+  0px 0px 1px rgb(167,167,167),
+  0px 1px 1px rgb(167,167,167),
+  0px 2px 1px rgb(167,167,167),
+  1px 1px 1px rgb(167,167,167),
+  1px 2px 1px rgb(167,167,167),
+  1px 3px 1px rgb(167,167,167),
+  2px 2px 1px rgb(167,167,167),
+  2px 3px 1px rgb(167,167,167),
+  2px 4px 1px rgb(167,167,167),
+  1px 10px 30px rgba(0,0,0,0.8),
+1px 10px 70px rgba(0,0,0,0.8),
+/*short soft bottom*/
+0px 5px 5px rgba(0,0,0,0.8),
+/*left shadow*/
+-5px 5px 20px rgba(0,0,0,0.8),
+/*right shadow*/
+5px 5px 20px rgba(0,0,0,0.8),
+  1px 1px 120px rgba(255,255,255,0.5);
+}
+.emboss-txt::after {
+  content: "Kommande Event.";
+  font-size: 100px;
+  letter-spacing: 5px;
+  font-family: dock11;
+  position: absolute;
+  top:0;
+  left:330px;
+  text-shadow: 0px 0px 100px rgba(11,124,199,0.5);
+  animation: cycle 10s linear infinite;
+}
+@keyframes cycle {
+  0% { text-shadow: 0px 0px 100px rgba(11,124,199,0.5);}
+  20% { text-shadow: 0px 0px 100px rgba(168,11,199,0.5);}
+  40% { text-shadow: 0px 0px 100px rgba(11,199,96,0.5);}
+  60% { text-shadow: 0px 0px 100px rgba(199,11,11,0.5);}
+  80% { text-shadow: 0px 0px 100px rgba(199,96,11,0.5);}
+}
+
+
         h3 {
             
         }
