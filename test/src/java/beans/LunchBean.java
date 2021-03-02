@@ -35,10 +35,26 @@ public class LunchBean implements Serializable {
      */
     public LunchBean() {
     }
-    public String getLunch(){
+    public String getName(){
         TypedQuery<Lunch> LunchQuery = em.createNamedQuery("Lunch.findAll", Lunch.class);
         List<Lunch> resultList = LunchQuery.getResultList();
         return resultList.get(0).getName();
+    }
+    public String getdescrip(){
+        TypedQuery<Lunch> LunchQuery = em.createNamedQuery("Lunch.findAll", Lunch.class);
+        List<Lunch> resultList = LunchQuery.getResultList();
+        return resultList.get(0).getDescription();
+    }
+    public String getOxfile(){
+        TypedQuery<Lunch> LunchQuery = em.createNamedQuery("Lunch.findAll", Lunch.class);
+        List<Lunch> resultList = LunchQuery.getResultList();
+        return resultList.get(1).getDescription();
+    }
+    
+    public String getKyckling(){
+        TypedQuery<Lunch> LunchQuery = em.createNamedQuery("Lunch.findAll", Lunch.class);
+        List<Lunch> resultList = LunchQuery.getResultList();
+        return resultList.get(2).getDescription();
     }
 
     public void persist(Object object) {
