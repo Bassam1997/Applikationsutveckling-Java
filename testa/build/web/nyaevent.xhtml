@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Antons Skafferi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    </head>
+    <body>
+        <img id="logo" src="anton2.png" alt="Bethan Rainforth a comedic dancer" />
+
+        
+  <div class="navbar">
+<ul class="horizontal">               
+   <li><a href="/test/faces/index.xhtml">Hem</a></li>
+   <li><a href="/test/faces/event1.xhtml">Event</a>
+        <ul>
+            <li><a href="/test/faces/event1.xhtml">Tidigare event</a></li>
+            <li><a href="/test/faces/nyaevent.xhtml">Kommande event</a></li>
+        </ul>
+   </li>
+   <li><a href="/test/faces/meny.xhtml">Meny</a>
+        <ul>
+            <li><a href="/test/faces/alacarte.xhtml">A la carté</a></li>
+            <li><a href="/test/faces/dlunch.xhtml"> Veckans luncher </a></li>
+        </ul>
+   </li>
+   <li><a href="/test/faces/kontaktaOss.xhtml">Kontakta oss</a>
+        <ul>
+            <li><a href="/test/faces/aboutUs.xhtml">Om oss</a></li>
+            <li><a href="/test/faces/kontaktaOss.xhtml">Kontakta oss</a></li>
+        </ul>
+   </li>
+   
+</ul>
+</div>
+        
+        <br> </br>
+       <div class="emboss-txt">Kommande Event.</div>
+        
+        <div class="w3-content" style="max-width: 1100px;">
+  <!-- About Section -->
+  
+<div class="w3-row w3-padding-64" id="about">
+    
+<div class="w3-col m6 w3-padding-large w3-hide-small">  <!-- About Section -->
+
+     <img src="molly.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="250" />
+    </div>
+    
+<div class="w3-col m6 w3-padding-large">
+      
+    <p> 4/3 - 2021 20.00</p>   
+    <h3>${eventBean.molly}</h3>
+        <p>är en svensk popsångare, låtskrivare och artist. Årets artist 2020 grammis galan.  </p>
+    </div>
+  </div>
+  
+  <div class="w3-row w3-padding-64" id="about">
+    
+<div class="w3-col m6 w3-padding-large w3-hide-small">  <!-- About Section -->
+
+     <img src="david.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="250" />
+    </div>
+    
+<div class="w3-col m6 w3-padding-large">
+      
+    <p> 19/3 - 2021 20.00</p>   
+    <h3>${eventBean.david}</h3>
+        <p>är en svensk ståuppkomiker. Årets komiker 2006.  </p>
+    </div>
+  </div>
+  
+  <div class="w3-row w3-padding-64" id="about">
+    
+<div class="w3-col m6 w3-padding-large w3-hide-small">  <!-- About Section -->
+
+     <img src="abba1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="250" />
+    </div>
+    
+<div class="w3-col m6 w3-padding-large">
+      
+    <p> 1/4 - 2021 20.00</p>   
+    <h3>${eventBean.abba}</h3>
+        <p>Abba är en svensk popgrupp, som gett ut musik mellan 1972 och 1983. Eurovision song contest vinnare 1974! </p>
+    </div>
+  </div>
+  
+        </div>
+        
+    </body>
+    <style>
+        .emboss-txt {
+  position: relative;
+  font-size: 100px;
+  font-family: dock11;
+  text-align: center;
+  letter-spacing: 5px;
+  color:rgb(207,207,207);
+  text-shadow: 
+  /*3d layers*/
+  0px 0px 1px rgb(167,167,167),
+  0px 1px 1px rgb(167,167,167),
+  0px 2px 1px rgb(167,167,167),
+  1px 1px 1px rgb(167,167,167),
+  1px 2px 1px rgb(167,167,167),
+  1px 3px 1px rgb(167,167,167),
+  2px 2px 1px rgb(167,167,167),
+  2px 3px 1px rgb(167,167,167),
+  2px 4px 1px rgb(167,167,167),
+  1px 10px 30px rgba(0,0,0,0.8),
+1px 10px 70px rgba(0,0,0,0.8),
+/*short soft bottom*/
+0px 5px 5px rgba(0,0,0,0.8),
+/*left shadow*/
+-5px 5px 20px rgba(0,0,0,0.8),
+/*right shadow*/
+5px 5px 20px rgba(0,0,0,0.8),
+  1px 1px 120px rgba(255,255,255,0.5);
+}
+.emboss-txt::after {
+  content: "Kommande Event.";
+  font-size: 100px;
+  letter-spacing: 5px;
+  font-family: dock11;
+  position: absolute;
+  top:0;
+  left:330px;
+  text-shadow: 0px 0px 100px rgba(11,124,199,0.5);
+  animation: cycle 10s linear infinite;
+}
+@keyframes cycle {
+  0% { text-shadow: 0px 0px 100px rgba(11,124,199,0.5);}
+  20% { text-shadow: 0px 0px 100px rgba(168,11,199,0.5);}
+  40% { text-shadow: 0px 0px 100px rgba(11,199,96,0.5);}
+  60% { text-shadow: 0px 0px 100px rgba(199,11,11,0.5);}
+  80% { text-shadow: 0px 0px 100px rgba(199,96,11,0.5);}
+}
+
+
+        h3 {
+            
+        }
+     .horizontal {
+    list-style-type:none; 
+    margin:40 auto; 
+    width:640px; 
+    padding:0;  
+    left: 220px;
+    top: 60px;
+    position: absolute;
+    overflow:hidden;
+}
+.horizontal > li {
+    float:left;
+    
+}
+.horizontal li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.horizontal li:hover ul {
+    display: block;
+}
+.horizontal li a {
+    display: block; 
+    text-decoration:none; 
+    text-align:right; 
+    padding:22px 10px;
+    font-family:Arial; 
+    font-size:8pt; 
+    font-weight:bold; 
+    color:#000000; 
+   
+    text-transform:uppercase; 
+    border-right:1px solid #607987; 
+    background-color:#FFFFFF;  
+    letter-spacing:.08em
+}
+
+.horizontal li a:hover {
+    background-color:#FF0000; 
+    color:#000000
+}
+
+.horizontal li:first-child a { border-left:0; }
+.horizontal li:last-child a { border-right:0; }
+
+    </style>
+</html>
