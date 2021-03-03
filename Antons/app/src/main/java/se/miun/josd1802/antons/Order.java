@@ -10,7 +10,7 @@ import android.widget.EditText;
 
 public class Order extends AppCompatActivity {
 
-    private Button b_oversikt;
+  /*  private Button b_oversikt;
     private EditText e_måltid1;
     private EditText e_måltid2;
     private EditText e_måltid3;
@@ -35,5 +35,5 @@ public class Order extends AppCompatActivity {
             intent.putExtra("#3", "Måltid3 : " + "Antal: " + e_måltid3.getText().toString());
 
             startActivity(intent);
-        }
+        } */
     }

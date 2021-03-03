@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Antons">
-        <activity android:name=".PlacedorderActivitys"></activity>
+        <activity android:name=".Schedule"></activity>
+        <activity android:name=".Pending_order" />
+        <activity android:name=".PlacedorderActivitys" />
         <activity android:name=".OverviewActivity" />
         <activity android:name=".Order" />
         <activity android:name=".MainActivity">
