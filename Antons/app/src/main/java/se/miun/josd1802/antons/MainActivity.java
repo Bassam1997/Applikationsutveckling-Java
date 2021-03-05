@@ -26,54 +26,24 @@ public class MainActivity extends AppCompatActivity {
         Chef = (ImageButton) findViewById(R.id.Chef);
         Schema = (ImageButton) findViewById(R.id.Schema);
 
-        MakeOrder.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity = new Intent(MainActivity.this, Order.class);
-                startActivity(intentLoadNewActivity);
-            }
+        MakeOrder.setOnClickListener(v -> {
+            Intent intentLoadNewActivity = new Intent(MainActivity.this, Order.class);
+            startActivity(intentLoadNewActivity);
+        });
+        PendingOrders.setOnClickListener(v -> {
+            Intent intentLoadNewActivity = new Intent(MainActivity.this, Pending_order.class);
+            startActivity(intentLoadNewActivity);
 
         });
-        PendingOrders.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity = new Intent(MainActivity.this, Pending_order.class);
-                startActivity(intentLoadNewActivity);
 
-            }
+        Chef.setOnClickListener(v -> {
+            Intent intentLoadNewActivity = new Intent(MainActivity.this, Pending_order.class);
+            startActivity(intentLoadNewActivity);
         });
 
-        Chef.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity = new Intent(MainActivity.this, Pending_order.class);
-                startActivity(intentLoadNewActivity);
-            }
+        Schema.setOnClickListener(v -> {
+            Intent intentLoadNewActivity = new Intent(MainActivity.this, Schedule.class);
+            startActivity(intentLoadNewActivity);
         });
-
-        Schema.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity = new Intent(MainActivity.this, Schedule.class);
-                startActivity(intentLoadNewActivity);
-            }
-        });
-
-
-        //MakeOrder.setOnClickListener(view -> openOrdersActivity());
-        //PendingOrders.setOnClickListener(view -> openOrderActivity());
     }
-
-   // public void openOrdersActivity()
-    //{
-      //  Intent intent = new Intent(this, PlacedorderActivitys.class);
-       // startActivity(intent);
-   // }
-
-
-  //  public void openOrderActivity()
-  //  {
-  //      Intent intent = new Intent(this, Order.class);
-   //     startActivity(intent);
-   // }
 }
