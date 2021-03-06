@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Schema = (ImageButton) findViewById(R.id.Schema);
 
         MakeOrder.setOnClickListener(v -> {
-            Intent intentLoadNewActivity = new Intent(MainActivity.this, Order.class);
+            Intent intentLoadNewActivity = new Intent(MainActivity.this, PlacedorderActivitys.class);
             startActivity(intentLoadNewActivity);
         });
         PendingOrders.setOnClickListener(v -> {

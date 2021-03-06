@@ -5,6 +5,8 @@
     <string name="orders_pending">ORDERS_PENDING</string>
     <string name="scheme">SCHEDULE</string>
     <string name="chef">CHEF</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="back">BACK</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
