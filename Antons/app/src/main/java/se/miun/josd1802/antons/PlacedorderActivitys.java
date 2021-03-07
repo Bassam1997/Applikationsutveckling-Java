@@ -1,6 +1,8 @@
 package se.miun.josd1802.antons;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
@@ -27,6 +29,7 @@ public class PlacedorderActivitys extends AppCompatActivity {
     private Button button_back;
     private Button button_overview;
     private RecyclerView recyclerView;
+    private ApiAdapter apiAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +40,12 @@ public class PlacedorderActivitys extends AppCompatActivity {
         button_back = findViewById(R.id.b_back);
         button_overview = findViewById(R.id.b_overview);
 
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+
+        apiAdapter = new ApiAdapter();
+
         retrofitParser();
-
-
 
 
         button_back.setOnClickListener(v -> {
@@ -75,21 +81,10 @@ public class PlacedorderActivitys extends AppCompatActivity {
                     return;
                 }
 
-                List<Dinner> dinners = response.body().getL_dinner();
+                List<Dinner> dinnersResponse = response.body().getL_dinner();
+                apiAdapter.setData(dinnersResponse);
 
-
-
-                /*
-                for(Dinner dinner : dinners)
-                {
-                    String content = "";
-                    content += "ID: " + dinner.getId() + "\n";
-                    content += "Name: " + dinner.getName() + "\n";
-                    content += "Price: " + dinner.getPrice() + "\n";
-                    content += "Details: " + dinner.getDetails() + "\n\n";
-
-                    textResult.append(content);
-                }*/
+                recyclerView.setAdapter(apiAdapter);
             }
 
             @Override
@@ -97,10 +92,5 @@ public class PlacedorderActivitys extends AppCompatActivity {
                 textResult.setText(t.getMessage());
             }
         });
-    }
-
-    public void addItem()
-    {
-
     }
 }
