@@ -10,7 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="375dp"
         android:layout_height="206dp"
-        android:contentDescription="@string/logga"
+        android:contentDescription="@string/loggan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

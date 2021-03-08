@@ -1,0 +1,58 @@
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_light_background"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="105dp"
+            android:id="@id/ivSchedule"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSchedule"
+            android:text="Timetable"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/ivSchedule"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDescription"
+            android:text="Description"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/tvSchedule"
+            android:layout_toRightOf="@id/ivSchedule"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvClick"
+            android:text="Click here"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:layout_below="@id/tvDescription"
+            android:layout_alignBottom="@id/ivSchedule"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
