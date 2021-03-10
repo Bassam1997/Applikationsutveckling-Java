@@ -9,10 +9,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+        <se.miun.josd1802.antons.Utils.LetterImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivLetter"
+            android:layout_margin="10dp"/>
+
         <ImageView
             android:layout_width="80dp"
             android:layout_height="105dp"
-            android:id="@+id/ivSchedule"
+            android:id="@+id/ivMain"
             android:layout_marginLeft="10dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -23,23 +29,23 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvSchedule"
-            android:text="Timetable"
+            android:id="@+id/tvMain"
+            android:text="test 1"
             android:layout_marginTop="8dp"
             android:layout_marginLeft="8dp"
             android:textStyle="bold"
-            android:layout_toRightOf="@+id/ivSchedule"
+            android:layout_toRightOf="@id/ivLetter"
             android:textSize="24sp"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvDescription"
+            android:id="@+id/tvMainDescription"
             android:text="Description"
             android:layout_marginLeft="8dp"
-            android:layout_below="@id/tvSchedule"
-            android:layout_toRightOf="@id/ivSchedule"
+            android:layout_below="@id/tvMain"
+            android:layout_toRightOf="@id/ivMain"
             android:textSize="16dp"
             />
 
@@ -51,8 +57,8 @@
             android:layout_alignParentRight="true"
             android:layout_marginTop="10dp"
             android:textSize="12dp"
-            android:layout_below="@id/tvDescription"
-            android:layout_alignBottom="@id/ivSchedule"/>
+            android:layout_below="@id/tvMainDescription"
+            android:layout_alignBottom="@id/ivMain"/>
 
 
     </RelativeLayout>

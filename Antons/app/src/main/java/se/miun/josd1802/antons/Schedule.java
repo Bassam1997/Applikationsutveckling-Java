@@ -1,7 +1,5 @@
 package se.miun.josd1802.antons;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,7 +11,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import java.security.PrivateKey;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Schedule extends AppCompatActivity {
 
@@ -28,6 +26,7 @@ public class Schedule extends AppCompatActivity {
 
         setupUIViews();
         initToolbar();
+        setupListView();
         
     }
 
