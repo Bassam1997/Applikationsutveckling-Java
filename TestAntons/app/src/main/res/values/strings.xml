@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestAntons</string>
+
+    <string-array name="Main">
+        <item> Make Order </item>
+        <item> Orders Pending </item>
+        <item> Chef </item>
+        <item> Schedule </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> Description 1 </item>
+        <item> Description 2 </item>
+        <item> Description 3  </item>
+        <item> Description 4  </item>
+    </string-array>
+
+
+
+</resources>
