@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setupUIViews();
+        /*setupUIViews();
         initToolbar();
-        setupListView();
+        setupListView();*/
 
     }
 
-    private void setupUIViews() {
+    /*private void setupUIViews() {
         toolbar = (Toolbar)findViewById(R.id.ToolbarMain);
         listView = (ListView)findViewById(R.id.lvMain);
     }
@@ -66,9 +66,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setSupportActionBar(Toolbar toolbar) {
-    }
+    }*/
 
-    public class MainAdapter extends ArrayAdapter {
+    /*public class MainAdapter extends ArrayAdapter {
 
         private int resource;
         private LayoutInflater layoutInflater;
@@ -166,8 +166,8 @@ public class MainActivity extends AppCompatActivity {
              //   imageView.setImageResource(R.drawable.schedule);
 
             return convertView;
-*/
 
-        }
+
+        }*/
     }
 
