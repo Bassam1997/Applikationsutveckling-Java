@@ -7,11 +7,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.List;
 
 import okhttp3.OkHttpClient;
@@ -47,7 +51,6 @@ public class PlacedorderActivitys extends AppCompatActivity {
 
         retrofitParser();
 
-
         button_back.setOnClickListener(v -> {
             Intent intentLoadNewActivity = new Intent(this, MainActivity.class);
             startActivity(intentLoadNewActivity);
@@ -55,10 +58,9 @@ public class PlacedorderActivitys extends AppCompatActivity {
 
         button_overview.setOnClickListener(v -> {
             Intent intentLoadNewActivity = new Intent(this, OverviewActivity.class);
+            intentLoadNewActivity.putExtra("LIST", (Serializable) new ApiAdapter().getOverviewList());
             startActivity(intentLoadNewActivity);
         });
-
-
     }
 
     public void retrofitParser()

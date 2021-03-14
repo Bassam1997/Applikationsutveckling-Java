@@ -7,8 +7,11 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class OverviewActivity extends AppCompatActivity {
 
+    private List<Dinner> overviewList;
     private Button b_placeOrder;
     private TextView måltid1;
     private TextView måltid2;
@@ -38,5 +41,12 @@ public class OverviewActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void retriveList()
+    {
+        Intent i = getIntent();
+        overviewList = (List<Dinner>) i.getSerializableExtra("LIST");
+        System.out.println(overviewList);
     }
 }

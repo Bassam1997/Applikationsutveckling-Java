@@ -4,10 +4,11 @@ import org.simpleframework.xml.Element;
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 
+import java.io.Serializable;
 import java.util.List;
 
 @Root(name = "dish")
-public class Dinner
+public class Dinner implements Serializable
 {
     @Element(name = "id")
     private Integer id;

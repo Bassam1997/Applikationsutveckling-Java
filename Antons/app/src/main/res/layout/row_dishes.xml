@@ -2,7 +2,8 @@
 <androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:isScrollContainer="true">
+    android:isScrollContainer="true"
+    >
 
 
     <RelativeLayout
@@ -18,17 +19,52 @@
             android:layout_height="wrap_content" />
 
         <EditText
+            android:id="@+id/dishDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
             android:layout_marginTop="25dp"
-            android:textColor="@color/black"
-            android:background="@color/lightgrey"
             android:autofillHints=""
+            android:background="@color/lightgrey"
             android:hint="@string/details"
             android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
             android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp">
+
+            <ImageButton
+                android:id="@+id/b_decrement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/bminus"
+                />
+
+            <TextView
+                android:id="@+id/inc_decValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/incdecvalue"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/b_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/bplus"/>
+
+        </LinearLayout>
 
     </RelativeLayout>
 
