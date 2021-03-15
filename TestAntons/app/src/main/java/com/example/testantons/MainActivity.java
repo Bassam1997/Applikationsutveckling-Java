@@ -1,12 +1,39 @@
 package com.example.testantons;
 
+/*
 import android.content.Context;
+import android.content.Intent;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import androidx.appcompat.widget.Toolbar;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView.;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+
+*/
+
+
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -14,10 +41,12 @@ import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 //import android.widget.Toolbar;
 import androidx.appcompat.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.widget.SimpleExpandableListAdapter;
 
 
-import androidx.appcompat.app.AppCompatActivity;
+//import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         setupUIViews();
         initToolbar();
@@ -53,6 +83,40 @@ public class MainActivity extends AppCompatActivity {
 
         SimpleAdapter simpleAdapter = new SimpleAdapter(this, title, description);
         listView.setAdapter(simpleAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                switch(position) {
+                    case 0 : {
+                        Intent intent = new Intent(MainActivity.this, MakeOrderActivity.class);
+                        startActivity(intent);
+                        break;
+                    }
+                    case 1: {
+                        Intent intent = new Intent(MainActivity.this, OrdersPending.class);
+                        startActivity(intent);
+                        break;
+                    }
+                    case 2: {
+                        Intent intent = new Intent(MainActivity.this, Chef.class);
+                        startActivity(intent);
+                        break; }
+                    case 3: {
+                        break;
+                    }
+
+                   // default:break;
+
+                }
+            }
+        });
+    }
+
+    public void previousMonthAction(View view) {
+    }
+
+    public void nextMonthAction(View view) {
     }
 
     //public void setSupportActionBar(Toolbar toolbar) {
@@ -116,4 +180,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 

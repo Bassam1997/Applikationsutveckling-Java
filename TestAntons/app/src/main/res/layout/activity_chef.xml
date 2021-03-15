@@ -12,20 +12,20 @@
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/white"
         android:titleTextColor="@color/colorAccent"
-        android:id="@+id/ToolbarMain">
+        android:id="@+id/ToolbarChef">
 
     </androidx.appcompat.widget.Toolbar>
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lvMain"
+        android:id="@+id/lvChef"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:dividerHeight="10dp"
-        android:layout_below="@id/ToolbarMain"
+        android:layout_below="@id/ToolbarChef"
         android:divider="@null"
         >
 

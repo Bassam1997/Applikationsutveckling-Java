@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestAntons">
+        <activity android:name=".Chef"></activity>
+        <activity android:name=".OrdersPending" />
+        <activity android:name=".ScheduleAdapter" />
+        <activity android:name=".ScheduleSingleItem" />
+        <activity android:name=".MakeOrderActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
