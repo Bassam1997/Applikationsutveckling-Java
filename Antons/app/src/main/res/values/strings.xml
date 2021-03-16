@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Antons</string>
+    <string name="loggan">LOGGA</string>
+    <string name="make_order">MAKE_ORDER</string>
+    <string name="orders_pending">ORDERS_PENDING</string>
+    <string name="scheme">SCHEDULE</string>
+    <string name="chef">CHEF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="main">
+        <item> Make Order</item>
+        <item> Orders Pending</item>
+        <item> Chef</item>
+        <item> Schedule</item>
+    </string-array>
+
+
+     <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+
+
+
+    <string-array name="Week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> Test 1</item>
+        <item> Test 2</item>
+        <item> Test 3</item>
+        <item> Test 4</item>
+        <item> Test 5</item>
+        <item> Test 6</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2294923a-f47f-4518-b762-a9fe4b835f4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/androidTest/java/com/example/testantons/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/java/com/example/testantons/Chef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/java/com/example/testantons/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/java/com/example/testantons/MakeOrderActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/java/com/example/testantons/OrdersPending.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/java/com/example/testantons/Utils/LetterImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/antons_logga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/kocken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/make_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/orders_pending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/schedule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/drawable/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/activity_chef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/activity_make_order.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/activity_orders_pending.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/chef_activity_single_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/main_activity_single_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/make_order_activity_single_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/layout/orders_pending_activity_single_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/app/src/test/java/com/example/testantons/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAntons/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pcFtExVrk3ErtPVeiix51DSHlu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestAntons" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2294923a-f47f-4518-b762-a9fe4b835f4e" name="Default Changelist" comment="" />
+      <created>1615474683901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615474683901</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="0" key="#Unnamed" timestamp="1615820323203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="0" key="#Unnamed/0.0.1536.824@0.0.1536.824" timestamp="1615820323203" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615822203569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1615822203569" />
+    <state x="100" y="100" width="1336" height="624" key="AVDManager" timestamp="1615822300985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1615822300985" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1615822346837">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615822346837" />
+  </component>
+</project>
