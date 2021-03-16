@@ -6,7 +6,8 @@ and open the template in the editor.
 -->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
     <head>
         <title>Antons Workspace</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -39,37 +40,18 @@ and open the template in the editor.
                
                 <br />
                 Beskrivning<br />
-                <h:inputTextarea id="beskrivning" value="#{lunchBean.description}" rows="3" cols="45"></h:inputTextarea>
+                <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
+                <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
+                <input type="hidden" name="dag" value="0" />
                 <br />
-                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchBean.spara()}" />
-                
-                
-                
-                <br /><br />
-                 Dagens Lunch 2
-                <br/>
-                Rubrik 
-                <br/>
-                <input type="text" name="Namn" id="firstname"/> 
-                <br />
-                Beskrivning<br />
-                <textarea id="message2" name="Meddelande" rows="3" cols="45"></textarea>
-                <br />
-                <input type="submit" id="sendbutton" value="Skicka lunch" />
-                <br /><br />
-                 Dagens Lunch 3
-                <br/>
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action}" />
+            </h:form>  
+    
                
-                <br/>
-                <input type="text" name="Namn" id="firstname"/> 
-                <br />
-                Beskrivning<br />
-                <textarea id="message3" name="Meddelande" rows="3" cols="45"></textarea>
-                <br />
-                <input type="submit" id="sendbutton" value="Skicka lunch" />
-            </h:form>      
   </div>
     </body>
+
     <style>
     
 h2 {

@@ -4,20 +4,17 @@
  * and open the template in the editor.
  */
 package beans;
-import entities.Lunch;
+
 import java.beans.Statement;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.Resource;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.transaction.HeuristicMixedException;
-import javax.transaction.RollbackException;
+import org.hibernate.validator.internal.util.logging.Log;
 
 /**
  *
@@ -32,28 +29,22 @@ public class LunchBean implements Serializable {
     private EntityManager em;
     @Resource
     private javax.transaction.UserTransaction utx;
-    
-    
+   private String description;
     /**
-    Class.forName(org.apache.derby.jdbc.ClientDriver);
-    String URL = "jdbc:derby://localhost:1527/sample";
-    Connection conn = DriverManager.getConnection(URL);
-        Statement stmt = conn.createStatement();
-    
      * Creates a new instance of LunchBean
      */
     public LunchBean() {
     }
-    private String description;
+    
 
-    public void persist(Lunch lunch) {
+    public void persist(Object object) {
         try {
             utx.begin();
-            em.persist(lunch);
+            em.persist(object);
             utx.commit();
-        } catch (RollbackException exception) {
-            Logger.getLogger(Lunch.class().getName().log(Level.SEVERE, "exception caught", exception);
-            throw new RuntimeException(exception);
+        } catch (Exception e) {
+            Logger.getLogger(getClass().getName()).log(Level.SEVERE, "exception caught", e);
+            throw new RuntimeException(e);
         }
     }
 
@@ -70,15 +61,12 @@ public class LunchBean implements Serializable {
     public void setDescription(String description) {
         this.description = description;
     }
-     public void spara(){
-     
-     Lunch lunch = new Lunch();
-     lunch.setDescription(description);
-     
     
-     
-     
-     }
-     
+         
+      public String log (){
+        System.out.println(this.description);
+        return"";
+        
+    }
     
 }
