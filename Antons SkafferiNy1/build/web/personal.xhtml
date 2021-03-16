@@ -17,9 +17,7 @@ and open the template in the editor.
         <div class="navbar">
 <ul class="horizontal">               
    <li><a href="/Antons_SkafferiNy1/faces/personal.xhtml">Menyer</a>
-        <ul>
-            <li><a href="/Antons_SkafferiNy1/faces/pVeckans.xhtml"> Veckans luncher </a></li>
-        </ul>
+       
    </li>
    <li><a href="/Antons_SkafferiNy1/faces/pEvent.xhtml">Event</a>
         <ul>
@@ -55,9 +53,9 @@ and open the template in the editor.
                 Beskrivning<br />
                 <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
                 <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
-                <input type="hidden" name="dag" value="1" />
+                <input type="hidden" name="dag" value="0" />
                 <br />
-                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log1}" />
                 <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action1}" />
             </h:form>  
     <h:form>
@@ -68,9 +66,9 @@ and open the template in the editor.
                 Beskrivning<br />
                 <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
                 <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
-                <input type="hidden" name="dag" value="2" />
+                <input type="hidden" name="dag" value="0" />
                 <br />
-                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log2}" />
                 <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action2}" />
             </h:form>  
       <h:form>
@@ -81,9 +79,9 @@ and open the template in the editor.
                 Beskrivning<br />
                 <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
                 <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
-                <input type="hidden" name="dag" value="3" />
+                <input type="hidden" name="dag" value="0" />
                 <br />
-                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log3}" />
                 <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action3}" />
             </h:form>  
       <h:form>
@@ -94,9 +92,9 @@ and open the template in the editor.
                 Beskrivning<br />
                 <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
                 <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
-                <input type="hidden" name="dag" value="4" />
+                <input type="hidden" name="dag" value="0" />
                 <br />
-                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log4}" />
                 <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action4}" />
             </h:form>  
                

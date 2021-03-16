@@ -35,7 +35,7 @@ public class LunchBean implements Serializable {
      */
     public LunchBean() {
     }
-    
+   
 
     public void persist(Object object) {
         try {
