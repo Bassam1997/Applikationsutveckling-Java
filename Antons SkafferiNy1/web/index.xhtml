@@ -51,14 +51,15 @@
         </div>
         
         <h2>Dagens Lunch</h2><!-- comment -->
-        #{lunchLista.dagensLunch}
+        <h3>#{lunchLista.dagensLunch}</h3> 
         
         <h2>All Lunch!</h2>
-        <ui:repeat value="#{lunchLista.lista}" var="item">
+        <h3> <ui:repeat value="#{lunchLista.lista}" var="item">
+           
                 Lunch: #{item} <br></br>
         
-        </ui:repeat>
-        <h2>#{lunchLista.lista}</h2>
+            </ui:repeat></h3>
+        <!--#{lunchLista.lista}-->
         <p> Lunchtid mellan 11-14.00 </p>
         
         <h3></h3>

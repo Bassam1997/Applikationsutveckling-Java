@@ -41,7 +41,6 @@ public class LunchLista implements Serializable {
     @ManagedProperty("#{param.dag}")
     private String lunchIndex = new String();
 
-    private Integer dayToRemove;
     public String getLunchIndex() {
         return lunchIndex;
     }
@@ -49,11 +48,7 @@ public class LunchLista implements Serializable {
     public void setLunchIndex(String lunchIndex) {
         this.lunchIndex = lunchIndex;
     }
-    private ArrayList<String> lista = new ArrayList<String>(5);
-
-    public void setLista(ArrayList<String> lista) {
-        this.lista = lista;
-    }
+    private ArrayList<String> lista = new ArrayList<String>();
 
     public ArrayList<String> getLista() {
         return lista;
@@ -65,7 +60,7 @@ public class LunchLista implements Serializable {
     public LunchLista() {
         /*lista.add("Pannkaka");
         lista.add("lax");*/
-        
+ 
       
         
         
@@ -99,11 +94,11 @@ public class LunchLista implements Serializable {
     public void log(){
         String value = FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap().get("dag");
         this.lunchIndex = value;
-     /*   System.out.println(this.insertedLunch);
-        System.out.println(this.lunchIndex);*/
+        System.out.println(this.insertedLunch);
+        System.out.println(this.lunchIndex);
         int index = Integer.parseInt(this.lunchIndex);
-        this.lista.add( this.insertedLunch);
-        System.out.println(lista.size());
+        this.lista.add(index, this.insertedLunch);
+        this.insertedLunch = null;
     }
 
     /**
@@ -130,24 +125,35 @@ public class LunchLista implements Serializable {
     public void setInsertedLunch(String insertedLunch) {
         this.insertedLunch = insertedLunch;
     }
-    public void delete_action() {
-        this.dayToRemove = Integer.parseInt(this.lunchIndex);
-       /* lista.remove(0); // remove the middle one*/
-        
-     
-        
-       
-        for(int i = 0; i < lista.size(); i++){
-            if(lista.get(i)== this.insertedLunch){
-                this.lista.remove(i);
-                
-            }
-            
-            
-            
-        }
-        this.setLista(lista);
-      System.out.println(this.lista.size());
-    }
+    public String delete_action0() {
+
+    Object obj = lista.remove(0); // remove the middle one
+    System.out.println(obj);
+    return "";
+}
+    public String delete_action1() {
+
+    Object obj = lista.remove(1); // remove the middle one
+    System.out.println(obj);
+    return "";
+}
+    public String delete_action2() {
+
+    Object obj = lista.remove(2); // remove the middle one
+    System.out.println(obj);
+    return "";
+}
+    public String delete_action3() {
+
+    Object obj = lista.remove(3); // remove the middle one
+    System.out.println(obj);
+    return "";
+}
+    public String delete_action4() {
+
+    Object obj = lista.remove(4); // remove the middle one
+    System.out.println(obj);
+    return "";
+}
      
 }

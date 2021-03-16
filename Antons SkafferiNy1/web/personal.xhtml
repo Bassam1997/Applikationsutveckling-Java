@@ -35,7 +35,7 @@ and open the template in the editor.
    <h2>Dagens Lunch!</h2>
   <div id="kontaktH">
             <h:form>
-                Dagens Lunch 1
+                Måndag
                 <br/>
                
                 <br />
@@ -45,9 +45,60 @@ and open the template in the editor.
                 <input type="hidden" name="dag" value="0" />
                 <br />
                 <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
-                <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action}" />
+                <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action0}" />
             </h:form>  
-    
+      <h:form>
+                Tisdag
+                <br/>
+               
+                <br />
+                Beskrivning<br />
+                <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
+                <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
+                <input type="hidden" name="dag" value="1" />
+                <br />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action1}" />
+            </h:form>  
+    <h:form>
+                Onsdag
+                <br/>
+               
+                <br />
+                Beskrivning<br />
+                <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
+                <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
+                <input type="hidden" name="dag" value="2" />
+                <br />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action2}" />
+            </h:form>  
+      <h:form>
+                Torsdag
+                <br/>
+               
+                <br />
+                Beskrivning<br />
+                <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
+                <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
+                <input type="hidden" name="dag" value="3" />
+                <br />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action3}" />
+            </h:form>  
+      <h:form>
+                Fredag
+                <br/>
+               
+                <br />
+                Beskrivning<br />
+                <h:inputTextarea id="beskrivning" value="#{lunchLista.insertedLunch}" rows="3" cols="45"></h:inputTextarea>
+                <!--<h:inputHidden id="dag" value="2"></h:inputHidden>-->
+                <input type="hidden" name="dag" value="4" />
+                <br />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="#{lunchLista.log}" />
+                <h:commandButton type="delete" value="Delete" action="#{lunchLista.delete_action4}" />
+            </h:form>  
                
   </div>
     </body>
