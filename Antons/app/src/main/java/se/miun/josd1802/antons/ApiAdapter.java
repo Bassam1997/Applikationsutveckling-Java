@@ -18,17 +18,18 @@ import java.util.List;
 
 public class ApiAdapter extends RecyclerView.Adapter<ApiAdapter.ApiAdapterVH>
 {
-    private List<Dinner> dinnerList;
-    private static List<Dinner> overviewList;
+    private ArrayList<Dinner> DatabaseDinnerList;
+    public static ArrayList<Dinner> overviewList_chef = new ArrayList<Dinner>();
+    public static ArrayList<Dinner> overViewList = new ArrayList<Dinner>();
     private Context context;
 
     public ApiAdapter()
     {
 
     }
-    public void setData(List<Dinner> dinnerList)
+    public void setData(ArrayList<Dinner> dinnerList)
     {
-        this.dinnerList = dinnerList;
+        this.DatabaseDinnerList = dinnerList;
         notifyDataSetChanged();
     }
 
@@ -42,17 +43,16 @@ public class ApiAdapter extends RecyclerView.Adapter<ApiAdapter.ApiAdapterVH>
     @Override
     public void onBindViewHolder(@NonNull ApiAdapterVH holder, int position)
     {
-        Dinner dinnerResponse = dinnerList.get(position);
+        Dinner dinnerResponse = DatabaseDinnerList.get(position);
 
-        // VILKA VI VILL VISA I LISTAN
-        String dishname = dinnerResponse.getName();
+        String dish_name = dinnerResponse.getName();
 
-        holder.dishname.setText(dishname);
+        holder.dishname.setText(dish_name);
 
         holder.button_increment.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                System.out.println("CLICKED" + " " + position);
+            public void onClick(View view)
+            {
                 int quantity =  0;
                 try{
                     quantity = Integer.parseInt(holder.inc_decValue.getText().toString());
@@ -62,15 +62,18 @@ public class ApiAdapter extends RecyclerView.Adapter<ApiAdapter.ApiAdapterVH>
                 }
                 holder.inc_decValue.setText(String.valueOf(quantity+1));
 
-                holder.overviewList.add(dinnerResponse);
-                setOverviewList(holder.overviewList);
+                dinnerResponse.setDetails(holder.editText.getText().toString());
+                holder.editText.setText("");
+
+                overviewList_chef.add(dinnerResponse);
+                overViewList.add(dinnerResponse);
             }
         });
 
         holder.button_decrement.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                System.out.println("CLICKED" + " " + position);
+            public void onClick(View view)
+            {
                 int quantity = 0;
                 try{
                     quantity = Integer.parseInt(holder.inc_decValue.getText().toString());
@@ -79,27 +82,19 @@ public class ApiAdapter extends RecyclerView.Adapter<ApiAdapter.ApiAdapterVH>
                     quantity = 0;
                 }
                 if(quantity > 0)
-                    holder.inc_decValue.setText(String.valueOf(quantity-1));
+                {
+                    holder.inc_decValue.setText(String.valueOf(quantity - 1));
+
+                    overviewList_chef.remove(dinnerResponse);
+                    overViewList.remove(dinnerResponse);
+                }
             }
         });
     }
 
-
     @Override
     public int getItemCount() {
-        return dinnerList.size();
-    }
-
-    public List<Dinner> getOverviewList()
-    {
-        System.out.println("GET " + overviewList.size() + "Value " + overviewList.get(1).getName());
-        return this.overviewList;
-    }
-
-    public void setOverviewList(List<Dinner> list)
-    {
-        this.overviewList = list;
-        System.out.println("SET " + overviewList);
+        return DatabaseDinnerList.size();
     }
 
     public class ApiAdapterVH extends RecyclerView.ViewHolder
@@ -107,7 +102,6 @@ public class ApiAdapter extends RecyclerView.Adapter<ApiAdapter.ApiAdapterVH>
         private TextView inc_decValue;
         private ImageButton button_increment;
         private ImageButton button_decrement;
-        public List<Dinner> overviewList = new ArrayList<>();
 
         TextView dishname;
         EditText editText;

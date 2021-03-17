@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="se.miun.josd1802.antons">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,9 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Antons">
-        <activity android:name=".Schedule"/>
-        <activity android:name=".Pending_order" />
-        <activity android:name=".PlacedorderActivitys" />
+        <activity android:name=".Chef"></activity>
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <activity android:name=".Schedule" />
+        <activity android:name=".OrdersPending" />
+        <activity android:name=".MakeOrderActivity" />
         <activity android:name=".OverviewActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -3,18 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:isScrollContainer="true"
-    >
-
+    android:background="@color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:padding="15dp"
         android:layout_height="wrap_content">
 
+        <se.miun.josd1802.antons.Utils.LetterImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/ivLetter"
+            android:layout_marginTop="8dp"/>
+
         <TextView
             android:id="@+id/dishname"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/ivLetter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -22,13 +29,15 @@
             android:id="@+id/dishDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="30dp"
             android:autofillHints=""
             android:background="@color/lightgrey"
             android:hint="@string/details"
             android:inputType="textMultiLine"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="12dp"
+            android:paddingRight="5dp"
+            android:layout_toRightOf="@id/ivLetter"
             android:textColor="@color/black"
             android:textSize="12sp" />
 

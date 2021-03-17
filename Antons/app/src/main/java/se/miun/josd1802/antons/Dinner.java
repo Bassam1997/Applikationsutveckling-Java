@@ -5,18 +5,19 @@ import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-@Root(name = "dish")
+@Root(name = "dinner")
 public class Dinner implements Serializable
 {
     @Element(name = "id")
     private Integer id;
     @Element(name = "price")
     private Integer price;
-    @Element(name = "namn")
+    @Element(name = "name")
     private String name;
-    @Element(name = "details")
+    @Element(name = "description")
     private String details;
 
     public Integer getId() {
@@ -51,25 +52,26 @@ public class Dinner implements Serializable
         this.details = details;
     }
 
+    @Override
+    public String toString()
+    {
+        return this.name.toString();
+    }
+
     public Dinner()
     {
 
     }
 }
 
-@Root(name = "dishes")
+@Root(name = "dinners")
 class dishes
 {
-    @ElementList(name = "dish", inline = true, required = false)
-    private List<Dinner> l_dinner;
+    @ElementList(name = "dinner", inline = true, required = false)
+    private ArrayList<Dinner> l_dinner;
 
-    public List<Dinner> getL_dinner()
+    public ArrayList<Dinner> getL_dinner()
     {
         return l_dinner;
-    }
-
-    public void setL_dinner(List<Dinner> l_dinner)
-    {
-        this.l_dinner = l_dinner;
     }
 }

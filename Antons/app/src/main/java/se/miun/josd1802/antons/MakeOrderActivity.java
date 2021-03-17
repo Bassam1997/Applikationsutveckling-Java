@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 import okhttp3.OkHttpClient;
@@ -25,9 +26,9 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
 
-public class PlacedorderActivitys extends AppCompatActivity {
+public class MakeOrderActivity extends AppCompatActivity {
 
-    private String BASEURL = "http://192.168.0.102:8080/APII/webresources/";
+    private String BASEURL = "http://192.168.0.102:8080/Antons_SkafferiNy1/webresources/";
 
     private TextView textResult;
     private Button button_back;
@@ -58,7 +59,6 @@ public class PlacedorderActivitys extends AppCompatActivity {
 
         button_overview.setOnClickListener(v -> {
             Intent intentLoadNewActivity = new Intent(this, OverviewActivity.class);
-            intentLoadNewActivity.putExtra("LIST", (Serializable) new ApiAdapter().getOverviewList());
             startActivity(intentLoadNewActivity);
         });
     }
@@ -83,7 +83,7 @@ public class PlacedorderActivitys extends AppCompatActivity {
                     return;
                 }
 
-                List<Dinner> dinnersResponse = response.body().getL_dinner();
+                ArrayList<Dinner> dinnersResponse = response.body().getL_dinner();
                 apiAdapter.setData(dinnersResponse);
 
                 recyclerView.setAdapter(apiAdapter);

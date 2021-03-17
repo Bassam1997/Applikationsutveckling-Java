@@ -8,6 +8,6 @@ import retrofit2.http.GET;
 
 public interface ApiHandler
 {
-    @GET("ent.dish")
+    @GET("entities.dinner")
     Call<dishes> getDinners();
 }
