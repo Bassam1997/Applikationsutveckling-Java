@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <se.miun.josd1802.antons.Utils.LetterImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/ivLetter"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvOrdersPending"
+            android:text="Måltid"
+            android:layout_marginTop="8dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/ivLetter"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b_pending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/green"
+            android:text="@string/chef_ready"
+            android:layout_marginRight="10dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
