@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>Antons Workspace</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <img id="logo" src="apers.png" alt="Bethan Rainforth a comedic dancer" />
+        <div class="navbar">
+<ul class="horizontal">               
+   <li><a href="/Antons_SkafferiNy1/faces/personal.xhtml">Menyer</a>
+        <ul>
+            <li><a href="/Antons_SkafferiNy1/faces/pVeckans.xhtml"> Veckans luncher </a></li>
+        </ul>
+   </li>
+   <li><a href="/Antons_SkafferiNy1/faces/pEvent.xhtml">Event</a>
+        <ul>
+            <li><a href="/Antons_SkafferiNy1/faces/pEvent.xhtml">Tidigare event</a></li>
+            <li><a href="/Antons_SkafferiNy1/faces/pNyevent.xhtml">Kommande event</a></li>
+        </ul>
+   </li>
+   
+   
+   
+</ul>
+</div>
+   <h2>Veckans Luncher!</h2>
+  <div id="kontaktH">
+            <h:form>
+                Måndag
+                <br/>
+               
+                <br />
+                Beskrivning<br />
+                <h:inputTextarea id="beskrivning" value="" rows="3" cols="45"></h:inputTextarea>
+                <br />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="" />
+                
+                <br /><br />
+                 Tisdag
+                <br/>
+                Rubrik 
+                <br/>
+                <input type="text" name="Namn" id="firstname"/> 
+                <br />
+                Beskrivning<br />
+                <textarea id="message2" name="Meddelande" rows="3" cols="45"></textarea>
+                <br />
+                <input type="submit" id="sendbutton" value="Skicka lunch" />
+                <br /><br />
+                 Onsdag
+                <br/>
+                Rubrik 
+                <br/>
+                <input type="text" name="Namn" id="firstname"/> 
+                <br />
+                Beskrivning<br />
+                <textarea id="message3" name="Meddelande" rows="3" cols="45"></textarea>
+                <br />
+                <input type="submit" id="sendbutton" value="Skicka lunch" />
+                <br /><br />
+                 Torsdag
+                <br/>
+                Rubrik 
+                <br/>
+                <input type="text" name="Namn" id="firstname"/> 
+                <br />
+                Beskrivning<br />
+                <textarea id="message2" name="Meddelande" rows="3" cols="45"></textarea>
+                <br />
+                <input type="submit" id="sendbutton" value="Skicka lunch" />
+                <br /><br />
+                <br /><br />
+                 Fredag
+                <br/>
+                Rubrik 
+                <br/>
+                <input type="text" name="Namn" id="firstname"/> 
+                <br />
+                Beskrivning<br />
+                <textarea id="message2" name="Meddelande" rows="3" cols="45"></textarea>
+                <br />
+                <input type="submit" id="sendbutton" value="Skicka lunch" />
+                <br /><br />
+            </h:form>      
+  </div>
+    </body>
+    <style>
+    
+h2 {
+            text-align: center;
+             color: #F31111; 
+             font-family: 'Rouge Script', cursive; 
+             font-size: 30px; 
+             font-weight: normal; 
+             
+             margin: 0 0 50px;
+             text-shadow: 1px 1px 2px #082b34; 
+        }
+        #kontaktH{
+            text-align: center;
+        }
+       
+     .horizontal {
+    list-style-type:none; 
+    margin:40 auto; 
+    width:640px; 
+    padding:0;  
+    left: 220px;
+    top: 60px;
+    position: absolute;
+    overflow:hidden;
+}
+.horizontal > li {
+    float:left;
+    
+}
+.horizontal li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.horizontal li:hover ul {
+    display: block;
+}
+.horizontal li a {
+    display: block; 
+    text-decoration:none; 
+    text-align:right; 
+    padding:22px 10px;
+    font-family:Arial; 
+    font-size:8pt; 
+    font-weight:bold; 
+    color:#000000; 
+   
+    text-transform:uppercase; 
+    border-right:1px solid #607987; 
+    background-color:#FFFFFF;  
+    letter-spacing:.08em
+}
+
+.horizontal li a:hover {
+    background-color:#FF0000; 
+    color:#000000
+}
+
+.horizontal li:first-child a { border-left:0; }
+.horizontal li:last-child a { border-right:0; }    
+        
+    </style>
+</html>
