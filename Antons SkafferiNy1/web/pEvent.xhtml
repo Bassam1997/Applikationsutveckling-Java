@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Antons Workspace</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+    <h:body>
+        <img id="logo" src="apers.png" alt="Bethan Rainforth a comedic dancer" />
+        <div class="navbar">
+<ul class="horizontal">              
+   <li><a href="/Antons_SkafferiNy1/faces/personal.xhtml">Menyer</a>
+      
+   </li>
+   <li><a href="/Antons_SkafferiNy1/faces/pEvent.xhtml">Event</a>
+        <ul>
+            <li><a href="/Antons_SkafferiNy1/faces/pEvent.xhtml">Tidigare event</a></li>
+            <li><a href="/Antons_SkafferiNy1/faces/pNyevent.xhtml">Kommande event</a></li>
+        </ul>
+   </li>
+   
+   
+   
+</ul>
+</div>
+   <h2>Tidigare Event</h2>
+  <div id="kontaktH">
+            <h:form>
+               
+                <br />
+                Event 1<br />
+                <h:inputTextarea id="beskrivning" value="${eventBean.eventDe}" rows="3" cols="45"></h:inputTextarea>
+                <br />
+                <h:commandButton type="submit" id="skickabesk" value="Spara" action="${eventBean.print()}" />
+                <br /><br />
+               
+                <br />
+                Information om event 1<br />
+                <h:inputTextarea id="beskrivningartist1" value="${eventBean.artistbeskrivning}" rows="3" cols="45"></h:inputTextarea>
+                <br />
+                <h:commandButton type="submit" id="skickaartist" value="Spara" action="${eventBean.print()}" />
+                <br /><br />
+               
+                Event 2<br />
+                <h:inputTextarea id="beskrivning1" value="${eventBean.eventDes}" rows="3" cols="45"></h:inputTextarea>
+                <br />
+                <h:commandButton type="submit" id="skickabesk1" value="Spara" action="${eventBean.print()}" />
+                <br /><br />
+                <br />
+               
+                Information om event 2<br />
+                <h:inputTextarea id="beskrivningartist2" value="${eventBean.artistbeskrivning1}" rows="3" cols="45"></h:inputTextarea>
+                <br />
+                <h:commandButton type="submit" id="skickaartist1" value="Spara" action="${eventBean.print()}" />
+                <br /><br />
+               
+                <br/>
+                Event 3<br />
+                <h:inputTextarea id="beskrivning2" value="${eventBean.eventDescrip}" rows="3" cols="45"></h:inputTextarea>
+                <br />
+                <h:commandButton type="submit" id="skickabesk2" value="Spara" action="${eventBean.print()}" />
+                <br /><br />
+               
+                <br />
+                Information om event 3<br />
+                <h:inputTextarea id="beskrivningartist3" value="${eventBean.artistbeskrivning2}" rows="3" cols="45"></h:inputTextarea>
+                <br />
+                <h:commandButton type="submit" id="skickaartist2" value="Spara" action="${eventBean.print()}" />
+                <br /><br />
+            </h:form>      
+  </div>
+    </h:body>
+    <style>
+   
+h2 {
+            text-align: center;
+             color: #F31111;
+             font-family: 'Rouge Script', cursive;
+             font-size: 30px;
+             font-weight: normal;
+             
+             margin: 0 0 50px;
+             text-shadow: 1px 1px 2px #082b34;
+        }
+        #kontaktH{
+            text-align: center;
+        }
+       
+     .horizontal {
+    list-style-type:none;
+    margin:40 auto;
+    width:640px;
+    padding:0;  
+    left: 220px;
+    top: 60px;
+    position: absolute;
+    overflow:hidden;
+}
+.horizontal > li {
+    float:left;
+   
+}
+.horizontal li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.horizontal li:hover ul {
+    display: block;
+}
+.horizontal li a {
+    display: block;
+    text-decoration:none;
+    text-align:right;
+    padding:22px 10px;
+    font-family:Arial;
+    font-size:8pt;
+    font-weight:bold;
+    color:#000000;
+   
+    text-transform:uppercase;
+    border-right:1px solid #607987;
+    background-color:#FFFFFF;  
+    letter-spacing:.08em
+}
+
+.horizontal li a:hover {
+    background-color:#FF0000;
+    color:#000000
+}
+
+.horizontal li:first-child a { border-left:0; }
+.horizontal li:last-child a { border-right:0; }    
+       
+    </style>
+</html>
