@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_dishes.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\row_dishes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_layout.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\chef_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_overview.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\activity_overview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orders_pending.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\orders_pending.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_make_order.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\make_order.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\activity_chef.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_orders_pending_activity_single_item.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\orders_pending_activity_single_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kocken.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\kocken.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_schedule.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\activity_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_activity_single_item.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\main_activity_single_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_simple_list_item_2.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\simple_list_item_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_antons_logga.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\antons_logga.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_placedorder_activitys.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\activity_placedorder_activitys.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_schedule.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\schedule.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bplus.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\bplus.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bminus.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\drawable\\bminus.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_activity_single_item.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\chef_activity_single_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pending_order.xml.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\layout\\activity_pending_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jocke\\Documents\\GitHub\\Applikationsutveckling-Java\\Antons\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    }
+]
