@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/lightgrey"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <se.miun.josd1802.antons.Utils.LetterImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivLetter"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChef"
+        android:text="Måltid"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/ivLetter"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/b_chef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/green"
+        android:text="@string/chef_ready"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

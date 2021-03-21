@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">TestAntons</string>
+    <string name="overview">Overview</string>
+    <string name="details">Details</string>
+    <string name="incdecvalue">0</string>
+    <string name="chef_ready">DONE</string>
+
+    <string-array name="Main">
+        <item> Make Order </item>
+        <item> Orders Pending </item>
+        <item> Chef </item>
+        <item> Schedule </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> To take the customers orders </item>
+        <item> To see all the orders pending </item>
+        <item> For the chef to see all the orders that have to be made  </item>
+        <item> See all the employees schedule  </item>
+    </string-array>
+
+
+    <string-array name="Make_Order">
+        <item>  1 Food 1 </item>
+        <item>  2 Food 2 </item>
+        <item>  3 Food 3 </item>
+        <item>  4 Food 4 </item>
+        <item>  5 Food 5 </item>
+        <item>  6 Food 6 </item>
+        <item>  7 Food 7 </item>
+        <item>  8 Food 8 </item>
+        <item>  9 Food 9 </item>
+        <item>  10 Food 10 </item>
+
+    </string-array>
+
+
+    <string-array name="Orders_Pending">
+        <item>  1 Food 1 </item>
+        <item>  2 Food 2 </item>
+        <item>  3 Food 3 </item>
+        <item>  4 Food 4 </item>
+        <item>  5 Food 5 </item>
+        <item>  6 Food 6 </item>
+        <item>  7 Food 7 </item>
+        <item>  8 Food 8 </item>
+        <item>  9 Food 9 </item>
+        <item>  10 Food 10 </item>
+
+    </string-array>
+
+
+    <string-array name="Chef">
+        <item>  1 Food 1 </item>
+        <item>  2 Food 2 </item>
+        <item>  3 Food 3 </item>
+        <item>  4 Food 4 </item>
+        <item>  5 Food 5 </item>
+        <item>  6 Food 6 </item>
+        <item>  7 Food 7 </item>
+        <item>  8 Food 8 </item>
+        <item>  9 Food 9 </item>
+        <item>  10 Food 10 </item>
+
+    </string-array>
+
+
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="byt_pass">Byt pass</string>
+    <string name="event_name">Event Name</string>
+
+
+</resources>
